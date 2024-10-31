@@ -17,4 +17,4 @@ const contactSchema = new Schema({
     address: String
 });
 
-module.exports = mongoose.model("Contact", contactSchema);
+module.exports = mongoose.model("contact", contactSchema);
